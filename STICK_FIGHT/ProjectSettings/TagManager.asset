@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Obstacle
+  - PlayerBone
+  - Weapon
+  - Wall
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlayerBone
+  - Weapon
+  - Ground
+  - EnemyBone
+  - Ceiling
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Skill
+    uniqueID: 1447423959
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3550746561
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3747291287
+    locked: 0
+  - name: Enemy
+    uniqueID: 1708520023
+    locked: 0
+  - name: Player
+    uniqueID: 1491314449
+    locked: 0
+  - name: Weapon
+    uniqueID: 3333097107
+    locked: 0

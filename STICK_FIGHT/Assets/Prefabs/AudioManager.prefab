@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &728869017854648238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 728869017854648236}
+  - component: {fileID: 728869017854648239}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &728869017854648236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728869017854648238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -40.78047, y: -43.21102, z: -55.09598}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &728869017854648239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728869017854648238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d81644c9d37a8443b64d2617a68f2e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: d62e66d708ebb7543b584cec33d599d8, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: GunShot
+    clip: {fileID: 8300000, guid: 7ce516b20ce0a1a4dabfceb33f76f335, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 1b428a682ff42394b940c217219423c1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Shout
+    clip: {fileID: 8300000, guid: a4882d238afb1f04e81549732e65f9af, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Slash1
+    clip: {fileID: 8300000, guid: 3cf5b07583927a741be7ed507f997304, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Slash2
+    clip: {fileID: 8300000, guid: ccba2d107f922454ca8ca71490dc36c1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Slash3
+    clip: {fileID: 8300000, guid: dd986a7dbc43d364da9516f3a0eb3a4a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemySlash
+    clip: {fileID: 8300000, guid: d239e96471dc1bc4d9a9ac028ae83785, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: BossSlash
+    clip: {fileID: 8300000, guid: 9e0e582564a9b8c4781736950bc373eb, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Rock
+    clip: {fileID: 8300000, guid: ec49baff4dfa2ad48936f28496d9f98e, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyHit
+    clip: {fileID: 8300000, guid: 23424378e7fbd7547860cc324d2bd374, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
